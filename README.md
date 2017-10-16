@@ -143,3 +143,4 @@ The following shows what goals run at which phases in the [default Maven lifecyc
 | n/a                   | liberty-maven-plugin    | n/a               | runnable         | Just sets properties to indicate that a runnable JAR should be made rather than a ZIP when packaging the server |
 | n/a                   | liberty-maven-plugin    | n/a               | downloadLiberty  | Just sets properties that are used in the install-server goal to installs the Liberty runtime. Doesn't run if liberty.install is set to an existing install of Liberty |
 | n/a                   | liberty-maven-plugin    | n/a               | existing-install | Just sets properties that are used in the other Liberty goals to point to an existing Liberty install. Only runs if liberty.install is set to an existing install of Liberty |
+# sample-room-java
